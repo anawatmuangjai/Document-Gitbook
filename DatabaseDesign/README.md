@@ -1,4 +1,8 @@
-# Database Design Guide
+---
+description: Basic database design!
+---
+
+# Database Design Guidelines
 
 ## Naming Conventions
 
@@ -23,4 +27,30 @@ https://stackoverflow.com/questions/3593582/database-naming-conventions-by-micro
 
 ### For more detail
 https://en.wikipedia.org/wiki/Database_normalization
+
+## Tips & Trick
+
+* Use a naming convention
+* Use short, meaningful names
+* Use the right number of tables
+* Avoid repeating data
+* Avoid redundant data
+* Avoid nulls
+* Avoid secret codes
+* Use constraints wisely
+* Do a clear separation between data fields
+* Use boolean and short encoding characters
+* Use small numbers when possible
+* Use application caching
+* Test queries with explain plan
+* Too many indexes may slow down the database
+* Close transactions as soon as possible
+
+## Other
+
+**“WITH (NOLOCK)” Hint for select statement**
+
+**What does the SQL Server NOLOCK hint do?**
+* The NOLOCK hint allows SQL to read data from tables by ignoring any locks and therefore not being blocked by other processes.
+* This can improve query performance, but also introduces the possibility of dirty reads.
 
