@@ -2,4 +2,6 @@
 description: React!
 ---
 
-# Get Started
+# React
+
+## Get Started

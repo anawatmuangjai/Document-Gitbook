@@ -2,6 +2,6 @@
 description: Git version control with Github and Gitlab!
 ---
 
-# Git Command 
+# Git Version Control 
 
-# Get Started
+## Get Started
