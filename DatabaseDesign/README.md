@@ -20,8 +20,8 @@ https://stackoverflow.com/questions/3593582/database-naming-conventions-by-micro
 
 ## Database Normalization
 
-**Reduce data redundancy and improve data integrity**
-**Recommend for 2NF-3NF (ทำแค่ระดับ 2-3 ก็เพียงพอ)**
+* **For reduce data redundancy and improve data integrity**
+* **Recommend for 2NF-3NF (ทำแค่ระดับ 2-3 ก็เพียงพอ)**
 
 ### 1NF: First normal form
 * Primary key (recommend GUID), 
